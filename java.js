@@ -1,11 +1,11 @@
 
-var hello = prompt(
+var hello = alert(
     "Hello Tobias!  The Web35 class contains 157 students"
 );
    
 
     
-var number = prompt(
+var number = alert(
     "I have chosen a random number between 1 and 157 " +  "It is " + (Math.random() * 157) + " I rock!"
 );
 
