@@ -1,4 +1,5 @@
 
+
 alert(
     "Hello Tobias!  The Web35 class contains 157 students"
 );
@@ -6,7 +7,7 @@ alert(
 
     
 alert(
-    "I have chosen a random number between 1 and 157 " +  "It is " + (Math.random() * 157) + " I rock!"
+    "I have chosen a random number between 1 and 157 " +  "It is " + Math.floor(Math.random() * 157) + " I rock!"
 );
 
 
@@ -20,5 +21,5 @@ var submissions = prompt(
 var correct = submissions
 
  var last = prompt(
-    "I have computed a random number between 1 and "+ correct + " it is " + (Math.random() * correct +"." + " Alphabetically sort the names of those who submitted correct answers and select the person at the number I chose as the winner. Thank you!”")
+    "I have computed a random number between 1 and "+ correct + " it is " + Math.floor(Math.random() * correct) +"." + " Alphabetically sort the names of those who submitted correct answers and select the person at the number I chose as the winner. Thank you!”"
  );
